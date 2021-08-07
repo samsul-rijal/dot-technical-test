@@ -1,0 +1,9 @@
+.form-input-name {
+    width: 400px;
+    height: 40px;
+    background: rgba(226, 225, 225, 0.25);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 60px;
+}

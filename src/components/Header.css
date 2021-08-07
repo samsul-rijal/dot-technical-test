@@ -1,0 +1,16 @@
+.link-header {
+    color: #FFFF;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.link-header:hover {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        margin-left: 140px;
+    }
+}

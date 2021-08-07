@@ -1,0 +1,111 @@
+.header-movies {
+    background-color: #282828;
+    padding: 10px;
+}
+
+.name-movies {
+    position: absolute;
+    color: #fff;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.menu-movies {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80vmax;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #fff;
+}
+
+.button-logout {
+    margin: 20px;
+    font-size: 18px;
+    color: rgb(221, 66, 66);
+}
+
+.button-logout:hover {
+    color: rgb(165, 67, 67);
+    text-decoration: none;
+}
+
+.search {
+    margin-top: 30px;
+    width: 60vh;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #efefef;
+}
+
+.search:focus {
+    background-color: #e2e2e2;
+}
+
+.card-content {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 1rem;
+    margin-top: 15px;
+	padding: 8px;
+	justify-content: center;
+}
+
+.header-card {
+	background-color: #3A3A3A;
+	color: #fff;
+	margin: 8px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.header-card img {
+	width: 180px;
+	height: 180px;
+	cursor: pointer;
+}
+
+.header-card p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.title-card {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.title-year {
+    font-size: 16px;
+}
+
+.modal-content {
+    width: 380px;
+    border-radius: 5%;
+    background: #3A3A3A;
+}
+
+.modal-movie {
+    width: 380px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.modal-movie img {
+    width: 290px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+.name-movie {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
